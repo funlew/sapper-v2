@@ -143,7 +143,7 @@ graph TB
 ```
 sapper-v2/
 ├── README.md / README.zh-CN.md     # 项目叙事（成绩、三能力、六制度、路线图）
-├── ARCHITECTURE.md                 # 本文：架构 + 目录 + 文件说明
+├── __ARCHITECTURE.md               # 本文：架构 + 目录 + 文件说明
 ├── SKILL.md                        # sapper CLI 的完整使用手册（Claude Code skill 格式）
 ├── BATTLE-REPORT.md                # 80.18 分战役全程复盘
 ├── CHANGELOG.md                    # 版本变更（1.0.0 起）
@@ -206,7 +206,7 @@ sapper-v2/
 | `README.md` | 267 | 项目叙事：女娲测试、三能力（Create/Language/History）、六制度、1B vs 4.5B token、路线图；是"为什么这样做"的说明 |
 | `README.zh-CN.md` | 180 | 中文版简介 |
 | `SKILL.md` | 297 | CLI 的权威手册：模型定义、作用域（严格 per-project）、命令速查、dispatch/auto 用法、**提示词注入风险**章节 |
-| `ARCHITECTURE.md` | 本文 | 架构、目录、文件职责、执行链路、环境变量 |
+| `__ARCHITECTURE.md` | 本文 | 架构、目录、文件职责、执行链路、环境变量 |
 | `BATTLE-REPORT.md` | 92 | 六阶段战役复盘：易题优先、失败重试、同族迁移、要塞攻坚、残值收割 |
 | `CHANGELOG.md` | 288 | 从 fgc 分叉开始的全部变更（typed facts、flag 账本、arena、时间预算、教条） |
 | `DISCLAIMER.md` | 43 | 授权范围与免责声明；`README` 顶部强制引用 |
